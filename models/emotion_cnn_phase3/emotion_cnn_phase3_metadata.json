@@ -1,0 +1,29 @@
+{
+  "model_name": "emotion_cnn_phase3",
+  "n_classes": 7,
+  "class_names": [
+    "angry",
+    "disgust",
+    "fear",
+    "happy",
+    "neutral",
+    "sad",
+    "surprise"
+  ],
+  "fine_tune_mode": "full",
+  "image_size": 224,
+  "dropout": 0.3,
+  "best_val_acc": 88.75633760811213,
+  "test_acc": 89.51685058156875,
+  "best_epoch": 26,
+  "training_config": {
+    "batch_size": 64,
+    "learning_rate": 0.0001,
+    "weight_decay": 0.0001,
+    "use_mixup": true,
+    "mixup_alpha": 0.2,
+    "label_smoothing": 0.1,
+    "gradient_clip": 1.0,
+    "augment": true
+  }
+}
