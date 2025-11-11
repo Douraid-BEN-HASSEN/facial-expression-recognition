@@ -6,9 +6,13 @@
 
 A comprehensive comparison of deep learning architectures for facial expression recognition on the FER2013 dataset. This project explores four different approaches and achieves **69.99% accuracy** with EfficientNet-B0.
 
+<div align="center">
+  
 ![FER2013 Dataset Samples](docs/fer2013_samples.png)
 
 *Sample images from FER2013 dataset showing the 7 emotion categories*
+
+</div>
 
 ## 📋 Table of Contents
 
@@ -409,12 +413,6 @@ MIT License - see [LICENSE](LICENSE) file.
 
 ---
 
-## 📧 Contact
-
-Questions or feedback? Open an issue on GitHub.
-
----
-
 ## 📊 Summary
 
 **Best Approach**: CNN (EfficientNet-B0) with transfer learning
@@ -428,6 +426,20 @@ Questions or feedback? Open an issue on GitHub.
 
 **🎯 Takeaway**: For facial emotion recognition, **raw images with transfer learning** significantly outperform landmark-based approaches. Visual context (texture, lighting, colors) is critical and cannot be captured by landmarks alone.
 
+## 📧 Contact
+
+For questions, collaborations, or industrial applications:
+
+- **LinkedIn**: [Douraïd BEN HASSEN](https://www.linkedin.com/in/doura%C3%AFd-ben-hassen/)
+- **GitHub**: [@Douraid-BEN-HASSEN](https://github.com/Douraid-BEN-HASSEN)
+
 ---
 
-**⭐ If you found this helpful, please star the repository!**
+
+<div align="center">
+
+**Made with ❤️**
+
+⭐ Star this repo if you found it helpful!
+
+</div>
