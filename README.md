@@ -70,6 +70,14 @@ Facial expression recognition is a challenging computer vision task with applica
 | Sad | 4830 | 653 | 1247 | 6730 | 19.2% |
 | Surprise | 3171 | 415 | 831 | 4417 | 12.6% |
 
+### Features Dataset Visualization
+
+![Features Visualization](docs/fer2013_features_visualization.png)
+
+For landmark-based approaches (Simple Classifier, Transformer, GNN), facial features are extracted using **MediaPipe Face Mesh** (478 landmarks × 3 coordinates = 1434 features). The visualization above shows the original images (left) and their corresponding facial landmarks (right) for each emotion category.
+
+---
+
 ## 🏗️ Architectures Compared
 
 ### 1. Simple Classifier (Baseline) ⚡
