@@ -1,0 +1,114 @@
+{
+  "feature_dimension": 1434,
+  "n_classes": 7,
+  "emotion_names": [
+    "Angry",
+    "Disgust",
+    "Fear",
+    "Happy",
+    "Neutral",
+    "Sad",
+    "Surprise"
+  ],
+  "emotion_mapping": {
+    "angry": 0,
+    "disgust": 1,
+    "fear": 2,
+    "happy": 3,
+    "neutral": 4,
+    "sad": 5,
+    "surprise": 6
+  },
+  "train_split": 0.6985714285714286,
+  "val_split": 0.2,
+  "test_split": 0.10142857142857142,
+  "random_state": 42,
+  "features_stats": {
+    "n_total_images": 700,
+    "n_valid_samples": 700,
+    "n_invalid_samples": 0,
+    "valid_rate_percent": 100.0,
+    "class_distribution": {
+      "Angry": {
+        "id": 0,
+        "count": 100,
+        "total_in_folder": 9520,
+        "percentage": 14.285714285714285,
+        "detection_rate": 1.050420168067227
+      },
+      "Disgust": {
+        "id": 1,
+        "count": 100,
+        "total_in_folder": 9292,
+        "percentage": 14.285714285714285,
+        "detection_rate": 1.076194575979337
+      },
+      "Fear": {
+        "id": 2,
+        "count": 100,
+        "total_in_folder": 9412,
+        "percentage": 14.285714285714285,
+        "detection_rate": 1.062473438164046
+      },
+      "Happy": {
+        "id": 3,
+        "count": 100,
+        "total_in_folder": 9895,
+        "percentage": 14.285714285714285,
+        "detection_rate": 1.010611419909045
+      },
+      "Neutral": {
+        "id": 4,
+        "count": 100,
+        "total_in_folder": 9837,
+        "percentage": 14.285714285714285,
+        "detection_rate": 1.0165700925078784
+      },
+      "Sad": {
+        "id": 5,
+        "count": 100,
+        "total_in_folder": 9479,
+        "percentage": 14.285714285714285,
+        "detection_rate": 1.0549636037556704
+      },
+      "Surprise": {
+        "id": 6,
+        "count": 100,
+        "total_in_folder": 9632,
+        "percentage": 14.285714285714285,
+        "detection_rate": 1.0382059800664452
+      }
+    }
+  },
+  "shapes": {
+    "X_train": [
+      489,
+      1434
+    ],
+    "y_train": [
+      489
+    ],
+    "X_val": [
+      140,
+      1434
+    ],
+    "y_val": [
+      140
+    ],
+    "X_test": [
+      71,
+      1434
+    ],
+    "y_test": [
+      71
+    ]
+  },
+  "files": {
+    "X_train": "datasets\\fer2013_features\\X_train.npy",
+    "y_train": "datasets\\fer2013_features\\y_train.npy",
+    "X_val": "datasets\\fer2013_features\\X_val.npy",
+    "y_val": "datasets\\fer2013_features\\y_val.npy",
+    "X_test": "datasets\\fer2013_features\\X_test.npy",
+    "y_test": "datasets\\fer2013_features\\y_test.npy"
+  }
+}
