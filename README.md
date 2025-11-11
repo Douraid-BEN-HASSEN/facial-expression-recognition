@@ -25,6 +25,10 @@ A comprehensive comparison of deep learning architectures for facial expression 
 - [Key Findings](#key-findings)
 - [Future Work](#future-work)
 - [References](#references)
+- [License](#license)
+- [Acknowledgments](#acknowledgments)
+- [Summary](#summary)
+- [Contact](#contact)
 
 ## 🎯 Problem Statement
 
